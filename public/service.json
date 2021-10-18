@@ -1,0 +1,45 @@
+[
+ {
+      "id": 1,
+      "name": "General Dental Care",
+      "price": "300",
+      "description": "General dentistry is for patients of all ages offering complete, comprehensive dental health care.",
+      "img": "https://i.ibb.co/m4G7GGQ/Cute-little-girl-sitting-on-a-modern-dental-chair-and-having-dental-consultation-with-dentist.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cosmetic Dentistry",
+      "price": "100",
+      "description": "A beautiful smile contributes to a better mood and boosts self-esteem.",
+      "img": "https://i.ibb.co/742QnC5/dentist-and-patient-discussion-about-planned-teeth-treatment-in-dental-clinic-office.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Restorative Dentistry",
+      "price": "150",
+      "description": "We work toward creating youthful smiles for patients whose natural teeth require replacement.",
+      "img": "https://i.ibb.co/NFThd7X/service5.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Cavities & Decay",
+      "price": "180",
+      "description": "We use modern technology to detect decay in the earliest stages, saving and preserving your teeth.",
+      "img": "https://i.ibb.co/gr8b6p6/last.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Emergency Care",
+      "price": "100",
+      "description": "Do not hesitate to seek help. Urgent dental care is provided usually the same day.",
+      "img": "https://i.ibb.co/LZD4NfY/service3.jpg"
+    },
+    {
+      "id": 6,
+      "name": "RESTORATIVE DENTISTRY",
+      "price": "300",
+      "description": "We work passionately toward creating the most youthful smiles for patients whose natural teeth require replacement.",
+      "img": "https://i.ibb.co/ssWWDF2/Young-woman-holding-cheek-in-chair-at-dentist-having-toothache-Shot-of-a-young-woman-suffering-from.jpg"
+    }
+  ]
+  
