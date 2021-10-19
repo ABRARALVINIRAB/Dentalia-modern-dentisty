@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../../Hooks/useAuth';
 import "./Header.css"
+import logo from "../../../images/dentalia-logo.png"
 
 const Header = () => {
     const { user, logOut } = useAuth();
@@ -11,7 +12,7 @@ const Header = () => {
         <>
             <Navbar sticky="top" bg="dark" variant="dark" collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">Dentist</Navbar.Brand>
+                    <Navbar.Brand href="#home"><img className="logo" src={logo} alt="" /></Navbar.Brand>
 
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
@@ -36,7 +37,7 @@ const Header = () => {
                         <Navbar.Text>
                             <a href="#login">{user?.displayName} </a>
                         </Navbar.Text>
-                        {user?.email ?
+                        {user?.displayName ?
                             <Button onClick={logOut} className="ms-3" variant="light">Log Out</Button> :
 
                             <Nav.Link as={Link} to="/login">Login</Nav.Link>
